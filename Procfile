@@ -1,1 +1,1 @@
-bot: java $JAVA_OPTS -cp /src/main/java/dev/pkav/BotInitializer
+bot: java -jar target/BotTelegramTest-1.0-SNAPSHOT.jar

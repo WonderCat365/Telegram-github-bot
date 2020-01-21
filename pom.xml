@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <telegram.api.version>4.5</telegram.api.version>
         <log4j.version>2.13.0</log4j.version>
         <lombok.version>1.18.10</lombok.version>
@@ -25,7 +26,13 @@
             <artifactId>telegrambotsextensions</artifactId>
             <version>${telegram.api.version}</version>
         </dependency>
-<!--        <dependency>-->
+        <dependency>
+            <groupId>org.gitlab4j</groupId>
+            <artifactId>gitlab4j-api</artifactId>
+            <version>4.14.12</version>
+        </dependency>
+
+        <!--        <dependency>-->
 <!--            <groupId>org.apache.logging.log4j</groupId>-->
 <!--            <artifactId>log4j-core</artifactId>-->
 <!--            <version>${log4j.version}</version>-->
