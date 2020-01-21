@@ -1,0 +1,1 @@
+bot: java $JAVA_OPTS -cp /src/main/java/dev/pkav/BotInitializer
